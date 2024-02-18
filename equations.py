@@ -12,8 +12,8 @@ def c_sound(T, k, R):
   return (c_square)**(0.5)
 
 def rho (p, R, T):
-
   # T is temperature [K]
   # p is pressure [Pa]. 
   # R is the specific gas constant. Usually = 287.0 # [J/kg/K] for air
+  
   return p / R / T
